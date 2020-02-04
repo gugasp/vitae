@@ -1,0 +1,36 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://gugasp.github.io/vitae
+author: Gustavo Araujo
+
+# edit this section with your information
+# jekyller.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /vitae/
+title: My Resume
+name: Gustavo Araujo
+email: seu email aqui
+email_full: seu email completo aqui
+website: gugasp.github.io
+website_full: https://gugasp.github.io/dev/
+github: gugasp
+twitter: seuushertwitter aqui
+tel: +55 seu telefone aqui
+tel_full: tel:+440000000000
+google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+address:
+  street: seu endreo aqui
+  postcode: seu cep aqui
+  city: São Paulo
+  country: Brasil
+google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
